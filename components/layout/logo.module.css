@@ -1,0 +1,12 @@
+.logo {
+  font-size: 50rem;
+  font-weight: 800;
+  font-family: "Titan One", sans-serif;
+}
+
+/* WHY ISNT THIS MEDIA QUERY WORKING ?!??!? */
+@media (min-width: 50px) {
+  .logo {
+    font-size: 6rem;
+  }
+}

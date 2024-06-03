@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  background-color: #79baff;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Concert One", sans-serif;
+  font-family: "Poiret One", sans-serif;
+  font-family: "Courier Prime", monospace;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}

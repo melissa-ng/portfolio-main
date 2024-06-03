@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5%;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header li {
+    margin: 0 1.8rem;
+    color: #000;
+    font-size: 2.4rem;
+  }
+  
+  .header li:hover,
+  .header li:active {
+    text-decoration: none;
+    color: #0052aa;
+    scale: 1.03;
+    cursor: pointer;
+}
+
+.header li:visited {
+    text-decoration: none;
+    color: inherit;
+}
